@@ -1,0 +1,314 @@
+##################################
+#   SwQuest Main Config
+#   Made by Paramount_Dev
+#   FunPay Link: https://funpay.com/uk/users/14397429/
+##################################
+
+quest_groups:
+  lord_potato_stage1:
+    name: "Лорд Картофель — Этап 1"
+    quests:
+      - id: milk_10
+        name: "Молочный подношение"
+        description: "Принести 10 вёдер молока."
+        required_items:
+          milk_bucket: 10
+
+      - id: carrot_275
+        name: "Морковная доставка"
+        description: "Принести 275 моркови."
+        required_items:
+          carrot: 275
+
+      - id: blaze_rods_128
+        name: "Жезлы огня"
+        description: "Принести 2 стака палочек ифрита."
+        required_items:
+          blaze_rod: 128
+
+      - id: kill_players_71
+        name: "Кровавый путь"
+        description: "Убить 71 игрока."
+        required_player_kills: 71
+
+      - id: acacia_leaves_1280
+        name: "Листья акации"
+        description: "Принести 20 стаков акациевой листвы."
+        required_items:
+          acacia_leaves: 1280
+
+      - id: iron_ore_237
+        name: "Железный груз"
+        description: "Принести 237 железной руды."
+        required_items:
+          iron_ore: 237
+
+      - id: end_brick_stairs_401
+        name: "Эндерные ступеньки"
+        description: "Принести 401 ступеньку из эндернякового кирпича."
+        required_items:
+          end_stone_brick_stairs: 401
+
+    group_rewards:
+      - type: MONEY
+        value: "5000"
+      - type: EXPERIENCE
+        value: "3000"
+      - type: ITEM
+        value: "DIAMOND:3"
+
+  lord_potato_stage2:
+    name: "Лорд Картофель — Этап 2"
+    quests:
+      - id: obsidian_555
+        name: "Тёмная крепость"
+        description: "Принести 555 обсидиана."
+        required_items:
+          obsidian: 555
+
+      - id: kill_zombie_222
+        name: "Чистка деревни"
+        description: "Убить 222 зомби."
+        required_mob_kills:
+          ZOMBIE: 222
+
+      - id: netherite_ingot_15
+        name: "Незеритовая плата"
+        description: "Принести 15 незеритовых слитков."
+        required_items:
+          netherite_ingot: 15
+
+      - id: kill_skeleton_109
+        name: "Кости врага"
+        description: "Убить 109 скелетов."
+        required_mob_kills:
+          SKELETON: 109
+
+      - id: cookie_1234
+        name: "Сладкая помощь"
+        description: "Принести 1234 печенья."
+        required_items:
+          cookie: 1234
+
+      - id: kill_cave_spider_76
+        name: "Пещерная угроза"
+        description: "Убить 76 пещерных пауков."
+        required_mob_kills:
+          CAVE_SPIDER: 76
+
+      - id: enchanted_golden_apple_3
+        name: "Яблоко силы"
+        description: "Принести 3 зачарованных золотых яблока."
+        required_items:
+          enchanted_golden_apple: 3
+
+    group_rewards:
+      - type: MONEY
+        value: "7500"
+      - type: EXPERIENCE
+        value: "4000"
+      - type: ITEM
+        value: "COAL:123"
+
+  lord_potato_stage3:
+    name: "Лорд Картофель — Этап 3"
+    quests:
+      - id: wither_skeleton_skull_25
+        name: "Трофеи ада"
+        description: "Принести 25 голов визер-скелета."
+        required_items:
+          wither_skeleton_skull: 25
+
+      - id: ghast_tear_15
+        name: "Слёзы ада"
+        description: "Принести 15 слёз гаста."
+        required_items:
+          ghast_tear: 15
+
+      - id: rotten_flesh_960
+        name: "Мясо нежити"
+        description: "Принести 15 стаков гнилой плоти."
+        required_items:
+          rotten_flesh: 960
+
+      - id: shulker_shell_10
+        name: "Дары шалкера"
+        description: "Принести 10 шалкеров."
+        required_items:
+          shulker_shell: 10
+
+      - id: night_vision_potion_297
+        name: "Зелье ночного зрения"
+        description: "Сварить 297 зелий ночного зрения."
+        required_items:
+          potion: 297
+
+      - id: bow_172
+        name: "Лук мастера"
+        description: "Принести 172 лука."
+        required_items:
+          bow: 172
+
+      - id: kill_wither_skeleton_111
+        name: "Резня скелетов"
+        description: "Убить 111 визер-скелетов."
+        required_mob_kills:
+          WITHER_SKELETON: 111
+
+    group_rewards:
+      - type: MONEY
+        value: "9000"
+      - type: EXPERIENCE
+        value: "5000"
+
+  lord_potato_stage4:
+    name: "Лорд Картофель — Этап 4"
+    quests:
+      - id: dragon_head_3
+        name: "Трофеи дракона"
+        description: "Принести 3 головы дракона."
+        required_items:
+          dragon_head: 3
+
+      - id: salmon_64
+        name: "Лососевая доставка"
+        description: "Принести 64 лосося."
+        required_items:
+          salmon: 64
+
+      - id: speed_potion_312
+        name: "Зелье скорости"
+        description: "Сварить 312 зелий скорости."
+        required_items:
+          potion_of_swiftness: 312
+
+      - id: quartz_block_356
+        name: "Кварцевые блоки"
+        description: "Принести 356 кварцевых блоков."
+        required_items:
+          quartz_block: 356
+
+      - id: gold_block_137
+        name: "Золотое богатство"
+        description: "Принести 137 золотых блоков."
+        required_items:
+          gold_block: 137
+
+      - id: raw_salmon_126
+        name: "Свежий улов"
+        description: "Поймать 126 сырого лосося."
+        required_items:
+          salmon: 126
+
+      - id: end_crystal_64
+        name: "Энергия Энда"
+        description: "Принести 64 кристалла энда."
+        required_items:
+          end_crystal: 64
+
+    group_rewards:
+      - type: MONEY
+        value: "10000"
+      - type: EXPERIENCE
+        value: "5500"
+
+  lord_potato_stage5:
+    name: "Лорд Картофель — Этап 5"
+    quests:
+      - id: kill_drowned_50
+        name: "Водная угроза"
+        description: "Убить 50 утопленников."
+        required_mob_kills:
+          DROWNED: 50
+
+      - id: kill_guardian_7
+        name: "Хранители океана"
+        description: "Убить 7 стражей."
+        required_mob_kills:
+          GUARDIAN: 7
+
+      - id: sea_pickle_128
+        name: "Морской огурец"
+        description: "Принести 128 морских огурцов."
+        required_items:
+          sea_pickle: 128
+
+      - id: cooked_chicken_149
+        name: "Куриный обед"
+        description: "Принести 149 жареной курицы."
+        required_items:
+          cooked_chicken: 149
+
+      - id: kill_chicken_78
+        name: "Охота на куриц"
+        description: "Убить 78 куриц."
+        required_mob_kills:
+          CHICKEN: 78
+
+      - id: rose_bush_960
+        name: "Розовый сад"
+        description: "Принести 960 розовых кустов."
+        required_items:
+          rose_bush: 960
+
+      - id: ender_eye_192
+        name: "Око наблюдения"
+        description: "Принести 192 ока Эндера."
+        required_items:
+          ender_eye: 192
+
+    group_rewards:
+      - type: MONEY
+        value: "12000"
+      - type: EXPERIENCE
+        value: "6000"
+
+  lord_potato_stage6:
+    name: "Лорд Картофель — Этап 6"
+    quests:
+      - id: strength_potion_312
+        name: "Зелье силы"
+        description: "Сварить 312 зелий силы."
+        required_items:
+          potion_of_strength: 312
+
+      - id: anvil_64
+        name: "Кузнечное ремесло"
+        description: "Принести 64 наковальни."
+        required_items:
+          anvil: 64
+
+      - id: enchanted_golden_apple_7
+        name: "Яблоко богов"
+        description: "Принести 7 зачарованных золотых яблок."
+        required_items:
+          enchanted_golden_apple: 7
+
+      - id: kill_players_279
+        name: "Великая битва"
+        description: "Убить 279 игроков."
+        required_player_kills: 279
+
+      - id: glass_bottle_3000
+        name: "Запас зельеварения"
+        description: "Принести 3000 пустых бутылочек."
+        required_items:
+          glass_bottle: 3000
+
+      - id: kill_enderman_432
+        name: "Эндер-разрушитель"
+        description: "Убить 432 эндермена."
+        required_mob_kills:
+          ENDERMAN: 432
+
+      - id: ender_pearl_1536
+        name: "Жемчужная поставка"
+        description: "Принести 1536 эндер-жемчугов."
+        required_items:
+          ender_pearl: 1536
+
+    group_rewards:
+      - type: MONEY
+        value: "15000"
+      - type: EXPERIENCE
+        value: "7000"

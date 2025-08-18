@@ -1,0 +1,18 @@
+name: SwQuest_PDev
+version: '${project.version}'
+main: dev.paramountdev.swquest_pdev.SwQuest_PDev
+api-version: '1.16'
+
+author: ParamountDev
+
+
+commands:
+  swquest:
+    aliases: [swq, quest, quests]
+  skipquest:
+    aliases: [sq, skipswquest]
+
+
+permissions:
+  swq.admin:
+    default: op
